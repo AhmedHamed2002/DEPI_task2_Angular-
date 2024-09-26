@@ -1,0 +1,27 @@
+/* strat of designers section */
+.designers>p{
+  margin-bottom: 10px;
+}
+.designers-box{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.des-content{
+  width: 32%;
+  background-color: #f1f1f1;
+}
+.des-content img{
+  width: 100%;
+}
+.des-details{
+  padding: 30px 10px;
+  font-size: larger;
+}
+.gray{
+  color: #c4c4c4;
+  margin: 10px 0;
+}
+
+/* end of designers section */

@@ -1,0 +1,61 @@
+/* strat of packages section */
+.packages {
+  font-size: larger;
+}
+.pack-content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.pack-details{
+  width: 49%;
+  text-align: center;
+}
+.pack-details .pack-head1{
+  background-color: #616161;
+  color: white;
+  padding: 40px 0;
+}
+.pack-details p{
+  background-color: #f1f1f1;
+  border-bottom: 1px solid #dedede;
+  padding: 20px 0;
+  font-size: 20px;
+  margin-bottom: 0px !important;
+  transition: 1.2s;
+  cursor: pointer;
+
+  &:hover{
+    transform: scale(0.9);
+    background-color: #aaa6a6;
+  }
+}
+.pack-details button{
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+}
+.pack-details .btn1{
+  background-color: white;
+  color: black;
+}
+.pack-details .btn1:hover{
+  color: white;
+  background-color: black;
+}
+.pack-details .btn2{
+  background-color: #f44336;
+  color: black;
+}
+.pack-details .btn2:hover{
+  color: white;
+  background-color: black;
+}
+.pack-details .pack-head2{
+  background-color: #f44336;
+  color: white;
+  padding: 40px 0;
+}
+/* end of packages section */
